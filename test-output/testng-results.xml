@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33651" started-at="2020-06-07T14:22:41Z" finished-at="2020-06-07T14:23:15Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="MyRunner.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.MyRunner@149cea0]" name="runScenario" class="runner.MyRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="33651" started-at="2020-06-07T14:22:41Z" finished-at="2020-06-07T14:23:15Z">
+      <class name="runner.MyRunner">
+        <test-method status="PASS" signature="setUpExtent()[pri:0, instance:runner.MyRunner@149cea0]" name="setUpExtent" is-config="true" duration-ms="264" started-at="2020-06-07T14:22:41Z" finished-at="2020-06-07T14:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpExtent -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.MyRunner@149cea0]" name="setUpClass" is-config="true" duration-ms="237" started-at="2020-06-07T14:22:41Z" finished-at="2020-06-07T14:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.MyRunner@149cea0]" name="runScenario" duration-ms="33254" started-at="2020-06-07T14:22:42Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-07T14:23:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a new Lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TC001_CreateLead"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.MyRunner@149cea0]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2020-06-07T14:23:15Z" finished-at="2020-06-07T14:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="tearDownExtent()[pri:0, instance:runner.MyRunner@149cea0]" name="tearDownExtent" is-config="true" duration-ms="503" started-at="2020-06-07T14:23:15Z" finished-at="2020-06-07T14:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtent -->
+      </class> <!-- runner.MyRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

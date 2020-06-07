@@ -1,0 +1,25 @@
+{
+
+	"LoginPage":{
+	
+			"UserName_ID":"username",
+			"Password_ID":"password",
+			"LoginButton_ID":"decorativeSubmit"
+	},
+	
+	"HomePage":{
+	
+			"Crmsfa_linkText":"CRM/SFA"
+			
+	},
+	
+	"MyHomePage":{
+	
+			"Leads_linkText":"Leads"
+	
+	}
+	
+	
+
+
+}
